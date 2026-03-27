@@ -1,0 +1,40 @@
+.theme-switcher {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+}
+
+.theme-select {
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+/* Global Theme Styles */
+:root {
+  --midnight-bg: #1a1a2e;
+  --midnight-text: #e94560;
+  
+  --emerald-bg: #064e3b;
+  --emerald-text: #10b981;
+  
+  --solarized-bg: #fdf6e3;
+  --solarized-text: #b58900;
+}
+
+.theme-midnight {
+  background-color: var(--midnight-bg);
+  color: #fff;
+}
+
+.theme-emerald {
+  background-color: var(--emerald-bg);
+  color: #fff;
+}
+
+.theme-solarized {
+  background-color: var(--solarized-bg);
+  color: #073642;
+}
